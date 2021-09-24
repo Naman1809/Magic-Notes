@@ -58,7 +58,7 @@ function showNotes() {
   if (notesObj.length != 0) {
     notesElem.innerHTML = html; 
   } else {// nhi to likh denge ki notes mai kuch nh aabhi add a note kro
-    notesElem.innerHTML = "Nothing to sho right now plase make a note using add note button"
+    notesElem.innerHTML = "Nothing to show right now please make a note using add note button"
   }
 }
 //Function to delete note
